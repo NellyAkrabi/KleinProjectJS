@@ -1,1 +1,1 @@
-# KleinProjectJS
+# KleinesProjectJS
