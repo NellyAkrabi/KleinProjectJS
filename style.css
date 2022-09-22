@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: rgba(240, 248, 255, 0.831);
+    margin: 2% 10%;
+}
+main {
+    background-color: #181680d6;    
+}
+h1 {
+    padding-top: 5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 200px;
+    font-weight: 70rem;
+    font-family: 'Mukta', sans-serif;
+    letter-spacing: 2px;
+    background: rgb(2,0,36);
+    background: linear-gradient(45deg, rgb(2, 0, 36) 0%, rgb(47, 77, 159) 59%, rgba(71, 13, 152, 0.776) 100%);
+/*     background: url(https://img.freepik.com/premium-photo/creative-designer-workspace-with-laptop-computer-houseplant-stationery-purple-background_35674-9407.jpg?w=2000) no-repeat;
+    background-size: cover;    */
+
+}
+.container {
+    max-width: max-content;
+    padding: 0 20px 0 10px;
+    margin: 50px 20px;
+    border-radius: 30px;
+    display: flex;
+    background-color: #FFFFFF;
+}
+#list {
+    padding-bottom:  10px;
+    margin: 30px;
+    height: 80vh;
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+.list-container {
+    display: flex;
+    background: rgb(2,0,36);
+    background: linear-gradient(45deg, rgb(2, 0, 36) 0%, rgb(47, 77, 159) 59%, rgba(71, 13, 152, 0.776) 100%);
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 5px 15px;
+    overflow: hidden;
+    border-radius: 10px;
+    line-height: 25px;
+}
+.task {
+    font-size:20px;
+    color: #ffffffe0;  
+    line-height: 50px;
+}
+input {
+    margin: 20px;
+    padding: 10px 13px;
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+:focus {
+    color: #584c4b;
+}
+#btn{
+    border: none;
+    background-color:#6b555300;
+    color:#051F56;
+    font-size: 40px;
+    font-weight: 400;
+    cursor: pointer;
+}
+:focus {
+    outline: none;
+    border: 1px solid #4b464622;;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 20px;
+    margin-top: 30px;
+    color:rgba(240, 248, 255, 0.461);
+    border-bottom: 2px solid  #ffffff82;
+}
+.btn-remove {   
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 10px;
+    background-color:   #6b555300;
+    color: #ffffffbc;  
+    font-size: 15px; 
+    cursor: pointer;
+    margin-left: 10px;
+}
+
